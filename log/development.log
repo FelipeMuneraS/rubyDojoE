@@ -1,0 +1,37 @@
+Started GET "/" for ::1 at 2019-08-24 13:21:26 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/felipe.munera/.rvm/gems/ruby-2.4.6/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/felipe.munera/.rvm/gems/ruby-2.4.6/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/convert/56" for ::1 at 2019-08-24 13:21:32 -0500
+Processing by ConvertController#convert as HTML
+  Parameters: {"number"=>"56"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template convert/convert, application/convert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/felipe.munera/Desktop/Tarea/rubyDojoE/app/views"
+):
+  
+app/controllers/convert_controller.rb:3:in `convert'
+Started GET "/convert/56" for ::1 at 2019-08-24 13:22:48 -0500
+Processing by ConvertController#convert as HTML
+  Parameters: {"number"=>"56"}
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/convert/56" for ::1 at 2019-08-24 13:22:52 -0500
+Processing by ConvertController#convert as HTML
+  Parameters: {"number"=>"56"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/convert/58" for ::1 at 2019-08-24 13:22:54 -0500
+Processing by ConvertController#convert as HTML
+  Parameters: {"number"=>"58"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
